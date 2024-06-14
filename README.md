@@ -40,7 +40,7 @@ Users should be able to:
 ### Links
 
 - [Solution URL](https://github.com/dz03vc/orderSummaryComponent)
-- [Live Site URL](https://your-live-site-url.com)
+- [Live Site URL](https://dz03vc.github.io/orderSummaryComponent/)
 
 ## My process
 
@@ -57,32 +57,41 @@ Users should be able to:
 - The different ways of working with, and scaling, SVG;
 - How to work with flexbox;
 
-
-
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<div class="planColumn">
+        <data class="plan">Annual Plan</data>
+        <data class="price">$59.99/year</data>
+      </div>
 ```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+.planContainer {
+      display: flex;
+      background-color: hsl(225, 100%, 98%);
+      padding-left: 1.65rem;
+      padding-right: 1.65rem;
+      padding-top: 1.5rem;
+      padding-bottom: 1.5rem;
+      border-radius: 1rem;
+      margin-top: 0.5rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .planColumn {
+      display: flex;
+      flex-direction: column;
+    }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- I learned a lot about flex and svg with this challenge, but I definetely need to continue exploring the different ways of working with it;
+- I'm planning on doing the HTML/CSS QR code challenge before starting the Colt Steele's JavaScript section.
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [Kevin Powell - YouTube](https://www.youtube.com/@KevinPowell) - His Channel helped me a lot with his CSS/SVG related videos.
+- [MDN - Flex](https://developer.mozilla.org/en-US/docs/Web/CSS/flex) - MDN structures/Syntaxes/Instructions always helping.
+- [Colt Steele's Web Dev Bootcamp](https://www.udemy.com/course/the-web-developer-bootcamp/) - Colt Steele's bootcamp that I'm enrolling right now.
 
 ## Author
 
@@ -93,6 +102,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+- A big thanks to M and V that helped me with this challenge!
+- [M's GitHub](https://github.com/studentiyot)
+- [V's GitHub](https://github.com/Vishisht-Dwivedi)
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
