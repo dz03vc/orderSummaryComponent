@@ -30,9 +30,11 @@ Users should be able to:
 ### Screenshot
 
 - Desktop:
+
 ![Desktop Version](https://github.com/dz03vc/orderSummaryComponent/blob/main/screenshotOrderSummaryDesktop.png?raw=true)
 
 - Mobile:
+
 ![Mobile Version](https://github.com/dz03vc/orderSummaryComponent/blob/main/screenshotOrderSummaryMobile.png?raw=true)
 
 ### Links
